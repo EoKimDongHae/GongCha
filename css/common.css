@@ -1,0 +1,137 @@
+.wrap{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+header,section,footer{
+    width: 100%;
+    position: relative;
+}
+
+header{
+    border-bottom: 2px solid #B51C31;
+    background-color: #fff;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+}
+
+.sec_title{
+    text-align: center;
+}
+ 
+.sec_title>h2{
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: -3px;
+    /* background-color: red; */
+}
+
+.pointer{
+    font-weight: 900;
+    color: #B51C31;
+}
+
+
+.section_2{
+    padding: 136px 0;
+    padding-top: 100px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.section_3{
+    padding-bottom: 175px;
+}
+
+.section_4{
+    padding-bottom: 100px;
+}
+
+.section_5>.sec_title{
+    text-align: left;
+}
+
+.section_5{
+    padding: 100px 0;
+}
+
+.section_6{
+    height: 430px;
+    background-image: url(../img/serch.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+footer{
+    background-color: #212121;
+    color: #fff;
+}
+
+span{
+    color: #B51C31;
+}
+
+.footer_top_menu>span{
+    color: #fff;
+}
+
+
+
+/* ============================================================ 1200 start  */
+
+@media all and (max-width:1280px) {
+    
+
+ .sec_title>h2{
+    font-size: 6vw;
+}
+
+.section_3{
+    padding-bottom: 100px;
+}
+
+}
+
+/* ============================================================ 992 start  */
+
+@media all and (max-width:992px) {
+
+    .sec_title>h2{
+        font-size: 2.8rem;
+    }
+
+    .section_3{
+      padding-bottom: 80px;
+    }
+
+    .section_5{
+        padding: 62px 0;
+        padding-bottom: 50px;
+    }
+
+    .section_6{
+        height: 321.5px;
+    }
+
+}
+
+
+/* ============================================================ 593 start  */
+
+@media all and (max-width:593px) {
+
+    .sec_title>h2{
+        font-size: 34px;
+    }
+
+    .section_2{
+        padding: 70px 0;
+    }
+    
+}
+
+
+

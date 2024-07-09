@@ -1,0 +1,133 @@
+.wrap{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+header,section,footer{
+    position: relative;
+}
+
+header{
+    width: 100%;
+    border-bottom: 2px solid #B51C31;
+    background-color: #fff;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+}
+
+.section_1{
+    width: 100%;
+    height: 480px;
+    margin-top: 112px;
+    background-image: url(../img/main.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_4{
+    padding: 123px 117px 185px;
+}
+
+.section_5{
+    padding: 0 117px 227px;
+}
+
+.common_title{
+    margin: 0 auto;
+    padding-bottom: 35px;
+}
+
+.common_title>h3{
+    font-size: 34px;
+    font-weight: 700;
+    color: #111;
+}
+
+.common_title p{
+    font-size: 17px;
+    font-weight: 500;
+    color: #666;
+    margin-top: 10px;
+}
+
+.sec_container{
+    max-width: 1920px;
+    background-color: #F5F4F2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer{
+    background-color: #212121;
+    color: #fff;
+}
+
+.footer_top_menu>span{
+    color: #fff;
+}
+
+span{
+    color: #B51C31;
+}
+
+
+/* ========================================================================== 1200 start  */
+
+
+@media all and (max-width:1407px) {
+
+    .section_4{
+        padding: 117px 50px;
+    }
+
+    .section_5{
+        padding: 0 50px;
+    }
+}
+
+
+
+/* ========================================================================== 992 start  */
+
+@media all and (max-width:992px) {
+  
+    .section_1{
+        height: 320px;
+        margin-top: 75px;
+    }
+
+    .section_4{
+        padding: 55px 20px 66px;
+    }
+
+    .section_5{
+        padding: 0 20px 80px;
+    }
+
+    .common_title{
+        padding-bottom: 30px;
+    }
+
+    .common_title>h3{
+        font-size: 20px;
+    }
+
+    .common_title p{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .sec_container{
+        flex-direction: column;
+    }
+}
+
+/* ========================================================================== 652 start  */
+
